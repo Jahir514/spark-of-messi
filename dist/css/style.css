@@ -1,0 +1,411 @@
+/*****************
+*** CSS INDEX
+******************/
+/* 1.Global CSS
+      .Mobile menu icon 
+      .Slick Slider Design
+      .Bootstrap Carousel
+      .Main Menu
+      .Banner (except Home page)
+      .Footer
+
+   2.Home page CSS
+      .Banner
+      .Product
+      .Latest News
+      .Sustainablity
+      .Career
+      
+   3.About us page CSS
+     .Banner
+     .Company Overview
+     .Leading Position Product
+     .Brands
+     .Vision
+     .Business Unit
+
+   4.Product Page CSS
+     .Heading
+     .Search
+     .All Product
+
+   5.Single Product Page CSS
+     .Single product
+     .Product Portfolio
+
+   6.Product Details Page CSS
+     .product details
+     .related product 
+     
+   7.News
+
+   8.Single News
+   
+   9.Business With Us
+     .Terms and Conditions
+     .Supplier and Dealer
+     .Contact US
+
+  10.Career
+
+  11.Contact with us
+     .Contact Form
+     .Google Map
+
+*/
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+body, .form-control {
+  font-size: 0.95rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+button:focus {
+  outline: none;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+p{
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.text-theme {
+  color: #f47620;
+}
+
+.text-theme-2 {
+  color: #fbac18;
+}
+
+.text-placeholder {
+  color: #acacac;
+}
+
+.sec-py-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+.pb-35 {
+  padding-bottom: 35px;
+}
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+/* mobile menu start */
+.header-nav #mobile-menu  {
+  cursor: pointer;
+}
+
+.header-nav #mobile-menu  span {
+  height: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #3E3A37;
+  display: block;
+  -webkit-transition: 0.33s;
+  transition: 0.33s;
+  margin-left: 0;
+}
+
+.header-nav #mobile-menu span:nth-child(1) {
+  width: 12px;
+}
+
+.header-nav #mobile-menu span:nth-child(2) {
+  width: 24px;
+}
+
+.header-nav #mobile-menu span:nth-child(3) {
+  width: 12px;
+}
+
+.header-nav .display_menu #mobile-menu span:nth-child(1) {
+  -webkit-transform: rotate(45deg) translate(2px, 1px);
+  transform: rotate(45deg) translate(2px, 1px);
+}
+
+.header-nav .display_menu #mobile-menu span:nth-child(2) {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.header-nav .display_menu #mobile-menu span:nth-child(3) {
+  -webkit-transform: rotate(45deg) translate(6px, -9px);
+  transform: rotate(45deg) translate(6px, -9px);
+}
+
+/* mobile menu end */
+
+/* footer start */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+}
+.footer-nav ul li:not(:last-child){
+  margin-right: 5px;
+}
+/* footer end */
+
+/******************** Home page css Start *************************/
+/* header top start */
+.header-top{
+  background-color: #343a40;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.top-nav ul li{
+  margin-right: 10px;
+}
+
+.top-nav ul li:nth-child(2){
+  color: #717171;
+}
+
+
+/* header top end */
+/* navbar start */
+.navbar{
+  background-color: #f8f8f8;
+  padding-top: 10px;
+}
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
+}
+
+.navbar-brand img {
+  width: 95px;
+}
+
+.custom-nav .nav-item {
+  margin-left: 1.5rem;
+}
+
+.custom-nav .nav-item .nav-link {
+  color: #000;
+  padding: 0;
+  font-size: 16px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.custom-nav .nav-item .nav-link:hover, .custom-nav .nav-item .nav-link:active, .custom-nav .nav-item .nav-link:focus {
+  color: #f47620;
+}
+
+/* navbar end */
+
+
+/* banner start */
+.banner{
+  background-color: #f8f8f8;
+  height: 550px;
+}
+.banner-text {
+  color: #000;
+}
+.banner-text h2{
+  font-size: 50px;
+}
+.banner-text p{
+  font-size: 18px;
+}
+
+/* banner end */
+
+/* main content start */
+.content .content-img{
+  width: 300px;
+  height: 300px;
+  background-color: #ddd;
+}
+
+.content .description p.step{
+  font-size: 40px;
+  color:#f47620;
+}
+
+.content .description h3{
+  font-size: 30px;
+}
+.content .description p{
+  font-size: 16px;
+}
+.content .description a{
+  font-size: 16px;
+  color: #fbac18;
+  text-decoration: underline;
+}
+.content .card-body {
+  padding: 24px;
+}
+
+/* main content end */
+
+/******************** Home page css End *************************/
+
+
+
+
+/************ media query start **********/
+
+@media (max-width: 1200px) {
+  body, .form-control {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-brand .logo-text span{
+    font-size: 1rem;
+    
+  }
+  .navbar-brand .logo-text p{
+    font-size: .5rem;
+    
+  }
+  /* product */
+  .product-services-content .product-by-category h3::after{
+    width: 65%;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  .tags .tag {
+    font-size: .85rem;
+  }
+  .nav-container {
+    position: relative !important;
+  }
+  .navbar-collapse {
+    position: absolute !important;
+    top: 100%;
+    z-index: +100;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 0 10px 3px #ddd;
+  }
+  .custom-nav .nav-item .nav-link {
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+  }
+
+  .home-page .home-banner{
+    height: 500px;
+  }
+
+  .product .heading img{
+    width: 30%;
+  }
+  .latest-news .heading img{
+    width: 25%;
+  }
+  .sustainability .heading img{
+    width: 25%;
+  }
+  .career .heading img{
+    width: 20%;
+  }
+
+  /* product details */
+  .product-details-content .product-img{
+    margin-bottom: 30px;
+  }
+  /* contact us */
+  .map-content iframe{
+    height: 350px;
+  }
+  /* career */
+  .job-list .heading{
+    text-align: center !important;
+  }
+  .job-list .heading .col-md-6{
+    text-align: center !important;
+    margin-top: 10px;
+  }
+  .job-list-content div:not(:last-child){
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+  
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .banner-text {
+    font-size: .7rem;
+  }
+  .home-page .home-banner{
+    height: 400px;
+  }
+  /* single prodtuct page */
+  .single-product-content .made-in,
+  .single-product-content .certify{
+    justify-content: center;
+  }
+  /* product */
+  .product-services-content .product-by-category h3::after{
+    width: 70%;
+  }
+
+}
+
+
+@media (max-width: 425px) {
+  .sec-py-70 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .banner-text{
+    top: 30%;
+  }
+  .home-page .home-banner{
+    height: 300px;
+  }
+  /* contact us */
+  .map-content iframe{
+    height: 250px;
+  }
+  /* product */
+  .product-services-content .product-by-category h3::after{
+    width: 100%;
+  }
+
+}
+/************ media query End **********/
