@@ -58,7 +58,9 @@ ul{
 .mb-35 {
   margin-bottom: 35px;
 }
-
+hr{
+  background-color: #40454a;
+}
 /* mobile menu start */
 .header-nav #mobile-menu  {
   cursor: pointer;
@@ -112,26 +114,12 @@ ul{
 .footer-nav ul li:not(:last-child){
   margin-right: 5px;
 }
+.footer-nav ul li a{
+  color: #ffffff;
+}
 /* footer end */
 
 /******************** Home page css Start *************************/
-/* header top start */
-.header-top{
-  background-color: #343a40;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 10px 0;
-}
-.top-nav ul li{
-  margin-right: 10px;
-}
-
-.top-nav ul li:nth-child(2){
-  color: #717171;
-}
-
-
-/* header top end */
 /* navbar start */
 .navbar{
   background-color: #f8f8f8;
@@ -146,9 +134,11 @@ ul{
 .navbar-brand img {
   width: 95px;
 }
-
+.custom-nav{
+  margin-top: 10px;
+}
 .custom-nav .nav-item {
-  margin-left: 1.5rem;
+  margin-left: 24px;
 }
 
 .custom-nav .nav-item .nav-link {
@@ -157,6 +147,10 @@ ul{
   font-size: 16px;
   -webkit-transition: .3s;
   transition: .3s;
+}
+
+.custom-nav .divider, .custom-nav .nav-item .login, .custom-nav .nav-item .register  {
+  color: #f47620;
 }
 
 .custom-nav .nav-item .nav-link:hover, .custom-nav .nav-item .nav-link:active, .custom-nav .nav-item .nav-link:focus {
@@ -169,16 +163,18 @@ ul{
 /* banner start */
 .banner{
   background-color: #f8f8f8;
-  height: 550px;
+  height: auto;
 }
 .banner-text {
   color: #000;
 }
 .banner-text h2{
-  font-size: 50px;
+  font-size: 40px;
+  font-weight: bold;
 }
 .banner-text p{
-  font-size: 18px;
+  font-size: 16px;
+  width: 80%;
 }
 
 /* banner end */
@@ -186,16 +182,17 @@ ul{
 /* main content start */
 .content .content-img{
   height: 300px;
-  background-color: #ddd;
+  background-color: #f8f8f8;
 }
 
 .content .description p.step{
-  font-size: 40px;
+  font-size: 30px;
   color:#f47620;
 }
 
 .content .description h3{
-  font-size: 30px;
+  font-size: 24px;
+  font-weight: bold;
 }
 .content .description p{
   font-size: 16px;
