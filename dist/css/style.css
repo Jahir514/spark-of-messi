@@ -267,6 +267,9 @@ hr{
 /* practice end */
 
 /* video start */
+.video p{
+  font-size: 24px;
+}
 .video .iframe{
   -webkit-box-shadow: 3px 3px 5px 6px rgba(0,0,0,0.15);  
   -moz-box-shadow: 3px 3px 5px 6px rgba(0,0,0,0.15); 
@@ -579,6 +582,9 @@ hr{
   }
   .footer-bottom{
     font-size: 13px;
+  }
+  .fluency-fun-page .video p{
+    font-size: 20px;
   }
 
 }
